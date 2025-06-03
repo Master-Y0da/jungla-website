@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jungla Mágica - ¡Celebra tu Cumpleaños!</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Comic+Neue:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.cdnfonts.com/css/jungle-ranger" rel="stylesheet">
+
+        <link href="https://fonts.cdnfonts.com/css/surf-safari" rel="stylesheet">
+
+        <link href="https://fonts.cdnfonts.com/css/stoney-billy" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Navigation Bar (Optional but good practice) -->
+        <nav
+            class="navbar is-fixed-top jungla-nav"
+            role="navigation"
+            aria-label="main navigation"
+        >
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#">
+                        <img
+                            src="images/logo-placeholder.png"
+                            alt="Jungla Mágica Logo"
+                            width="112"
+                            height="28"
+                        />
+                        <!-- Replace with your actual logo -->
+                    </a>
+                    <a
+                        role="button"
+                        class="navbar-burger"
+                        aria-label="menu"
+                        aria-expanded="false"
+                        data-target="junglaNavbarMenu"
+                    >
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="junglaNavbarMenu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a href="#hero" class="navbar-item">Inicio</a>
+                        <a href="#about" class="navbar-item">El Parque</a>
+                        <a href="#gallery" class="navbar-item">Galería</a>
+                        <a
+                            href="#contact"
+                            class="mt-2 navbar-item button is-primary jungla-button"
+                        >
+                            <strong>¡Reserva tu Fiesta!</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section - Birthday Invitation -->
+        <section id="hero" class="hero is-fullheight-with-navbar jungla-hero">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title is-2 jungla-title animated-title">
+                        ¡CELEBRA TU FIESTA A LO GRANDE!
+                    </h1>
+                    <h2 class="subtitle is-3 jungla-subtitle">
+                        En <span class="jungla-name">Jungla Mágica</span>, la
+                        aventura te espera.
+                    </h2>
+                    <!-- <figure class="image main-hero-image">
+                        <!-- Ideally, this image shows kids having a birthday party in the park -->
+                        <!-- <img
+                            src="images/fondo.png"
+                            alt="Celebración de Cumpleaños en Jungla Mágica"
+                        /> -->
+                    </figure>
+                    <a
+                        href="#contact"
+                        class="button is-large is-primary jungla-button mt-5"
+                    >
+                        <span class="icon"
+                            ><i class="fas fa-birthday-cake"></i
+                        ></span>
+                        <span>¡Quiero mi Fiesta!</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section jungla-section-alt">
+            <div class="container">
+                <h2 class="title is-2 has-text-centered jungla-section-title">
+                    Descubre Jungla Mágica
+                </h2>
+                <div
+                    class="columns is-vcentered is-variable is-5-tablet is-8-desktop"
+                >
+                    <div class="column is-half">
+                        <figure class="image is-4by3 shadow-lift">
+                            <img
+                                src="images/chicas.jpg"
+                                alt="Niñas divirtiendose en jungla magica"
+                            />
+                        </figure>
+                    </div>
+                    <div class="column is-half">
+                        <div class="content is-medium">
+                            <p>
+                                ¡Bienvenido a <strong>Jungla Mágica</strong>, el
+                                lugar donde la diversión para tus hijos esta
+                                asegurada! Sumérgete en un mundo de aventura
+                                con nuestros increíbles
+                                <strong>juegos de madera</strong>, escala por
+                                emocionantes
+                                <strong>puentes colgantes</strong> y explora
+                                cada rincón lleno de sorpresas.
+                            </p>
+                            <p>
+                                Somos el sitio perfecto para celebrar un
+                                cumpleaños inolvidable. Ofrecemos paquetes
+                                especiales para que tu día sea único, lleno de
+                                risas, juegos y momentos mágicos.
+                            </p>
+                            <p><strong>Atracciones Principales:</strong></p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-tree jungla-icon"></i>
+                                    Estructuras de juego de madera.
+                                </li>
+                                <li>
+                                    <i class="fas fa-coffee jungla-icon"></i>
+                                    Cafetería.
+                                </li>
+                                <li>
+                                    <i class="fas fa-child jungla-icon"></i>
+                                    Juegos Inflables.
+                                </li>
+                                <li>
+                                    <i
+                                        class="fas fa-birthday-cake jungla-icon"
+                                    ></i>
+                                    Zonas especiales para celebraciones de
+                                    cumpleaños.
+                                </li>
+                                <li>
+                                    <i
+                                        class="fas fa-shield-alt jungla-icon"
+                                    ></i>
+                                    Entorno seguro y supervisado.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section jungla-section">
+            <div class="container">
+                <h2 class="title is-2 has-text-centered jungla-section-title">
+                    Momentos Mágicos
+                </h2>
+                <div class="columns is-multiline is-centered gallery-container">
+                    <!-- Add more images as needed -->
+                    <div class="column is-one-third-desktop is-half-tablet">
+                        <figure class="image is-4by3 gallery-image shadow-lift">
+                            <img
+                                src="images/fondo.png"
+                                alt="Niños en tobogán de madera"
+                                data-full="images/fondo.png"
+                            />
+                        </figure>
+                    </div>
+                    <div class="column is-one-third-desktop is-half-tablet">
+                        <figure class="image is-4by3 gallery-image shadow-lift">
+                            <img
+                                src="images/gallery2-placeholder.jpg"
+                                alt="Juegos de madera en Jungla Mágica"
+                                data-full="images/gallery2-placeholder.jpg"
+                            />
+                        </figure>
+                    </div>
+                    <div class="column is-one-third-desktop is-half-tablet">
+                        <figure class="image is-4by3 gallery-image shadow-lift">
+                            <img
+                                src="images/gallery3-placeholder.jpg"
+                                alt="Celebración de cumpleaños"
+                                data-full="images/gallery3-placeholder.jpg"
+                            />
+                        </figure>
+                    </div>
+                    <div class="column is-one-third-desktop is-half-tablet">
+                        <figure class="image is-4by3 gallery-image shadow-lift">
+                            <img
+                                src="images/gallery4-placeholder.jpg"
+                                alt="Detalle de estructura de juego"
+                                data-full="images/gallery4-placeholder.jpg"
+                            />
+                        </figure>
+                    </div>
+                    <div class="column is-one-third-desktop is-half-tablet">
+                        <figure class="image is-4by3 gallery-image shadow-lift">
+                            <img
+                                src="images/gallery5-placeholder.jpg"
+                                alt="Niños jugando alegres"
+                                data-full="images/gallery5-placeholder.jpg"
+                            />
+                        </figure>
+                    </div>
+                    <div class="column is-one-third-desktop is-half-tablet">
+                        <figure class="image is-4by3 gallery-image shadow-lift">
+                            <img
+                                src="images/gallery6-placeholder.jpg"
+                                alt="Tobogán de madera grande"
+                                data-full="images/gallery6-placeholder.jpg"
+                            />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Booking Section (Simple Placeholder) -->
+        <section id="contact" class="section jungla-section-alt">
+            <div class="container has-text-centered">
+                <h2 class="title is-2 jungla-section-title">
+                    ¡Reserva Tu Aventura!
+                </h2>
+                <p class="subtitle is-4">
+                    ¿Listo para la fiesta de cumpleaños más divertida?
+                    ¡Contáctanos!
+                </p>
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <p>
+                            <i class="fas fa-phone jungla-icon"></i> Teléfono:
+                            (123) 456-7890
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope jungla-icon"></i> Email:
+                            fiestas@junglamagica.com
+                        </p>
+                        <p>
+                            <i class="fas fa-map-marker-alt jungla-icon"></i>
+                            Dirección: Calle Ficticia 123, Ciudad Aventura
+                        </p>
+                        <a
+                            href="mailto:fiestas@junglamagica.com?subject=Reserva Cumpleaños Jungla Mágica"
+                            class="button is-primary is-large jungla-button mt-4"
+                        >
+                            <span class="icon"
+                                ><i class="fas fa-paper-plane"></i
+                            ></span>
+                            <span>Enviar un Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer jungla-footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Jungla Mágica</strong> por tu equipo de desarrollo.
+                    Derechos Reservados © 2023.
+                </p>
+                <p>
+                    <a href="#" class="jungla-icon"
+                        ><i class="fab fa-facebook fa-lg"></i
+                    ></a>
+                    <a href="#" class="jungla-icon"
+                        ><i class="fab fa-instagram fa-lg"></i
+                    ></a>
+                    <a href="#" class="jungla-icon"
+                        ><i class="fab fa-tiktok fa-lg"></i
+                    ></a>
+                </p>
+            </div>
+        </footer>
+
+        <!-- Lightbox Modal for Gallery -->
+        <div class="modal" id="lightbox-modal">
+            <div class="modal-background" id="lightbox-bg"></div>
+            <div class="modal-content">
+                <p class="image">
+                    <img
+                        src=""
+                        alt="Imagen ampliada de la galería"
+                        id="lightbox-image"
+                    />
+                </p>
+            </div>
+            <button
+                class="modal-close is-large"
+                aria-label="close"
+                id="lightbox-close"
+            ></button>
+        </div>
+
+        <style>
+            /* Import Fonts at the top (already did in HTML, but good practice) */
+            /* @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Comic+Neue:wght@700&display=swap'); */
+
+            :root {
+                --jungla-green: #4caf50; /* A vibrant green */
+                --jungla-brown: #795548; /* Wood brown */
+                --jungla-yellow: #ffeb3b; /* Sunny yellow accent */
+                --jungla-blue: #2196f3; /* Sky blue accent */
+                --jungla-text: #363636;
+                --cartoon-font: 'Jungle Ranger', sans-serif;
+                --body-font: "Comic Neue", cursive;
+            }
+
+            body {
+                font-family: var(--body-font);
+                color: var(--jungla-text);
+                line-height: 1.7;
+                overflow-x: hidden; /* Prevent horizontal scroll */
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            .title,
+            .subtitle {
+                font-family: var(--cartoon-font);
+                color: var(--jungla-green); /* Default title color */
+            }
+            .subtitle {
+                color: var(--jungla-brown);
+                -webkit-text-stroke: var(--jungla-yellow);
+            }
+
+            /* --- Navigation --- */
+            .jungla-nav {
+                background-color:  #80ac6b;
+                backdrop-filter: blur(5px); /* Frosty glass effect */
+                border-bottom: 3px solid var(--jungla-green);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            .jungla-nav .navbar-item,
+            .jungla-nav .navbar-burger {
+                color: var(--jungla-brown);
+                font-family: var(--cartoon-font);
+                font-size: 1.1rem;
+            }
+            .jungla-nav .navbar-item:hover,
+            .jungla-nav .navbar-item.is-active {
+                background-color: var(--jungla-green) !important;
+                color: white !important;
+            }
+            .jungla-nav .navbar-brand img {
+                max-height: 50px !important; /* Adjust as per your logo */
+                margin-right: 10px;
+            }
+
+            /* --- Hero Section --- */
+            .jungla-hero {
+                background-image: url("images/jungle-background-cartoon.png"); /* Add a subtle cartoon jungle background pattern */
+                background-size: cover;
+                background-position: center;
+                position: relative; /* For potential pseudo-elements or overlays */
+            }
+            .jungla-hero::before {
+                /* Optional: Darken overlay for text readability */
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                /* background-color: rgba(
+                    255,
+                    255,
+                    255,
+                    0.3
+                ); /* Light overlay to brighten cartoon BG */ */
+                z-index: 0;
+            }
+            .hero-body {
+                background-image: url("images/fondo.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .jungla-hero .hero-body > .container {
+                position: relative; /* To ensure content is above the ::before pseudo-element */
+                z-index: 1;
+            }
+
+            .jungla-title {
+                color: var(--jungla-yellow);
+                font-size: 4rem !important; /* Make it BIG */
+                text-shadow:
+                    2px 2px 0px var(--jungla-brown),
+                    4px 4px 0px rgba(0, 0, 0, 0.1);
+                margin-bottom: 0.5em !important;
+                line-height: 1.1;
+                -webkit-text-stroke: var(--jungla-brown);
+            }
+
+            /* Animated title for fun */
+            @keyframes bounceIn {
+                0%,
+                20%,
+                40%,
+                60%,
+                80%,
+                100% {
+                    animation-timing-function: cubic-bezier(
+                        0.215,
+                        0.61,
+                        0.355,
+                        1
+                    );
+                }
+                0% {
+                    opacity: 0;
+                    transform: scale3d(0.3, 0.3, 0.3);
+                }
+                20% {
+                    transform: scale3d(1.1, 1.1, 1.1);
+                }
+                40% {
+                    transform: scale3d(0.9, 0.9, 0.9);
+                }
+                60% {
+                    opacity: 1;
+                    transform: scale3d(1.03, 1.03, 1.03);
+                }
+                80% {
+                    transform: scale3d(0.97, 0.97, 0.97);
+                }
+                100% {
+                    opacity: 1;
+                    transform: scale3d(1, 1, 1);
+                }
+            }
+            .animated-title {
+                animation: bounceIn 1.5s ease-out;
+            }
+
+            .jungla-subtitle {
+                color: var(--jungla-brown);
+                font-size: 2rem !important;
+                text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+            }
+            .jungla-name {
+                color: var(--jungla-yellow);
+                background-color: var(--jungla-green);
+                padding: 0.1em 0.3em;
+                border-radius: 8px;
+            }
+            .main-hero-image img {
+                max-width: 600px; /* Adjust as needed */
+                margin: 20px auto;
+                border-radius: 20px;
+                border: 5px solid var(--jungla-brown);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
+
+            /* --- General Section Styling --- */
+            .jungla-section {
+                padding: 60px 20px;
+                background-color: #fdf5e6; /* Light creamy background */
+            }
+            .jungla-section-alt {
+                padding: 60px 20px;
+                background-color: #e8f5e9; /* Light green background */
+            }
+            .jungla-section-title {
+                margin-bottom: 40px !important;
+                color: var(--jungla-green);
+                text-shadow: 1px 1px 0px var(--jungla-brown);
+            }
+
+            /* --- About Section --- */
+            #about .content p,
+            #about .content ul {
+                font-size: 1.1rem;
+            }
+            #about .content strong {
+                color: var(--jungla-green);
+            }
+            #about .content ul {
+                list-style: none;
+                padding-left: 0;
+            }
+            #about .content li {
+                margin-bottom: 0.5em;
+            }
+            .jungla-icon {
+                color: var(--jungla-green);
+                margin-right: 8px;
+            }
+
+            /* --- Gallery Section --- */
+            .gallery-image img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+                border: 4px solid var(--jungla-brown);
+                transition:
+                    transform 0.3s ease-out,
+                    box-shadow 0.3s ease-out;
+                cursor: pointer;
+            }
+            .gallery-image:hover img {
+                transform: scale(1.05) rotate(2deg);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+            }
+
+            .shadow-lift {
+                /* General shadow for images that lifts on hover */
+                border-radius: 15px; /* Match image if parent */
+                transition:
+                    box-shadow 0.3s ease-out,
+                    transform 0.3s ease-out;
+            }
+            .shadow-lift img {
+                /* Ensure image inside also has radius if it's the one with border */
+                border-radius: 10px; /* Slightly less than parent if parent has padding */
+            }
+            .shadow-lift:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            }
+
+            /* --- Buttons --- */
+            .jungla-button {
+                background-color: var(--jungla-yellow) !important;
+                color: var(--jungla-brown) !important;
+                border: 2px solid var(--jungla-brown) !important;
+                font-family: var(--cartoon-font);
+                padding: 15px 30px !important;
+                font-size: 1.2rem !important;
+                border-radius: 50px !important; /* Fun rounded button */
+                text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+                transition: all 0.3s ease;
+            }
+            .jungla-button:hover {
+                background-color: var(--jungla-green) !important;
+                color: white !important;
+                border-color: var(--jungla-green) !important;
+                transform: translateY(-3px) scale(1.05);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            }
+            .jungla-button.is-primary {
+                /* Specific for Bulma overrides if needed */
+                /* Styles already covered by .jungla-button */
+            }
+
+            /* --- Contact Section --- */
+            #contact p {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+                color: var(--jungla-brown);
+            }
+            #contact .jungla-icon {
+                color: var(--jungla-green);
+            }
+
+            /* --- Footer --- */
+            .jungla-footer {
+                background-color: var(--jungla-brown);
+                color: #f5f5f5;
+                padding: 40px 20px;
+                border-top: 5px solid var(--jungla-green);
+            }
+            .jungla-footer p {
+                color: #f5f5f5;
+            }
+            .jungla-footer strong {
+                color: var(--jungla-yellow);
+            }
+            .jungla-footer a.jungla-icon {
+                color: var(--jungla-yellow);
+                margin: 0 10px;
+                font-size: 1.5rem;
+                transition: color 0.2s ease;
+            }
+            .jungla-footer a.jungla-icon:hover {
+                color: white;
+            }
+
+            /* --- Lightbox Modal --- */
+            .modal-content {
+                max-width: 90vw;
+                max-height: 90vh;
+                background-color: transparent;
+                box-shadow: none;
+            }
+            .modal-content img {
+                display: block;
+                margin: auto;
+                max-height: 85vh;
+                max-width: 100%;
+                border-radius: 10px;
+                border: 3px solid white;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            }
+            #lightbox-modal {
+                transition: opacity 0.3s ease;
+                z-index: 100;
+            }
+            #lightbox-modal.is-active {
+                opacity: 1;
+                visibility: visible;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            /* Responsive adjustments */
+            @media screen and (max-width: 768px) {
+                .jungla-title {
+                    font-size: 2.5rem !important;
+                }
+                .jungla-subtitle {
+                    font-size: 1.5rem !important;
+                }
+                .main-hero-image img {
+                    max-width: 90%;
+                }
+                .columns.is-vcentered .column.is-half {
+                    text-align: center; /* Center content on mobile */
+                }
+                #about .content ul {
+                    padding-left: 10px; /* Indent list items a bit on mobile */
+                }
+                .gallery-container .column {
+                    /* On mobile, gallery items will stack. Let Bulma handle it. */
+                }
+            }
+        </style>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Navbar Burger Toggle
+                const $navbarBurgers = Array.prototype.slice.call(
+                    document.querySelectorAll(".navbar-burger"),
+                    0,
+                );
+                if ($navbarBurgers.length > 0) {
+                    $navbarBurgers.forEach((el) => {
+                        el.addEventListener("click", () => {
+                            const target = el.dataset.target;
+                            const $target = document.getElementById(target);
+                            el.classList.toggle("is-active");
+                            $target.classList.toggle("is-active");
+                        });
+                    });
+                }
+
+                // Smooth scroll for anchor links in navbar
+                document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+                    anchor.addEventListener("click", function (e) {
+                        if (
+                            this.getAttribute("href").startsWith("#") &&
+                            this.getAttribute("href").length > 1
+                        ) {
+                            e.preventDefault();
+                            const targetId = this.getAttribute("href");
+                            const targetElement =
+                                document.querySelector(targetId);
+                            if (targetElement) {
+                                const navbar = document.querySelector(
+                                    ".navbar.is-fixed-top",
+                                );
+                                const navbarHeight = navbar
+                                    ? navbar.offsetHeight
+                                    : 0;
+                                const elementPosition =
+                                    targetElement.getBoundingClientRect().top;
+                                const offsetPosition =
+                                    elementPosition +
+                                    window.pageYOffset -
+                                    navbarHeight;
+
+                                window.scrollTo({
+                                    top: offsetPosition,
+                                    behavior: "smooth",
+                                });
+
+                                // Close mobile menu if open
+                                const activeBurger = document.querySelector(
+                                    ".navbar-burger.is-active",
+                                );
+                                if (activeBurger) {
+                                    const targetMenuId =
+                                        activeBurger.dataset.target;
+                                    const targetMenu =
+                                        document.getElementById(targetMenuId);
+                                    activeBurger.classList.remove("is-active");
+                                    targetMenu.classList.remove("is-active");
+                                }
+                            }
+                        }
+                    });
+                });
+
+                // Gallery Lightbox functionality
+                const galleryImages =
+                    document.querySelectorAll(".gallery-image img");
+                const lightboxModal = document.getElementById("lightbox-modal");
+                const lightboxImage = document.getElementById("lightbox-image");
+                const lightboxClose = document.getElementById("lightbox-close");
+                const lightboxBg = document.getElementById("lightbox-bg");
+
+                console.log("Gallery Images found:", galleryImages.length);
+
+                // Add click event to each gallery image
+                galleryImages.forEach((image) => {
+                    image.addEventListener("click", function () {
+                        const fullSrc =
+                            this.getAttribute("data-full") || this.src;
+                        console.log("Image clicked:", fullSrc);
+
+                        lightboxImage.src = fullSrc;
+                        lightboxModal.classList.add("is-active");
+                        document.documentElement.classList.add("is-clipped");
+                    });
+                });
+
+                // Function to close the lightbox
+                function closeLightbox() {
+                    lightboxModal.classList.remove("is-active");
+                    document.documentElement.classList.remove("is-clipped");
+                }
+
+                // Add close events
+                if (lightboxClose)
+                    lightboxClose.addEventListener("click", closeLightbox);
+                if (lightboxBg)
+                    lightboxBg.addEventListener("click", closeLightbox);
+
+                // Close on Escape key
+                document.addEventListener("keydown", function (e) {
+                    if (
+                        e.key === "Escape" &&
+                        lightboxModal.classList.contains("is-active")
+                    ) {
+                        closeLightbox();
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
