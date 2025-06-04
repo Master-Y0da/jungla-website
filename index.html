@@ -71,8 +71,8 @@
         <section id="hero" class="hero is-fullheight-with-navbar jungla-hero">
             <div class="hero-body">
 
-                <div class="is-hidden-mobile" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('images/fondo.png'); background-size: cover; background-position: center;"></div>
-                <div class="is-hidden-tablet" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('images/mobile.png'); background-size: cover; background-position: center;"></div>
+                <div class="is-hidden-mobile" style="position: absolute; width: 100%; height: 100vh; background-image: url('images/fondo.png'); background-size: cover; "></div>
+                <div class="is-hidden-tablet" style="position: absolute; width: 100%; height: 100%; background-image: url('images/mobile.png'); background-size: cover; "></div>
 
                 <div class="container has-text-centered">
                     <h1 class="title is-2 jungla-title animated-title">
@@ -408,6 +408,8 @@
             .hero-body {
                 position: relative;
                 overflow: hidden;
+                padding: 0px;
+                height: 100vh;
             }
             .jungla-hero .hero-body > .container {
                 position: relative; /* To ensure content is above the ::before pseudo-element */
