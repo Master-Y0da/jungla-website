@@ -68,9 +68,12 @@
             </div>
         </nav>
 
-        <!-- Hero Section - Birthday Invitation -->
         <section id="hero" class="hero is-fullheight-with-navbar jungla-hero">
             <div class="hero-body">
+
+                <div class="is-hidden-mobile" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('images/fondo.png'); background-size: cover; background-position: center;"></div>
+                <div class="is-hidden-tablet" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('images/mobile.png'); background-size: cover; background-position: center;"></div>
+
                 <div class="container has-text-centered">
                     <h1 class="title is-2 jungla-title animated-title">
                         ¡CELEBRA TU FIESTA A LO GRANDE!
@@ -403,9 +406,8 @@
                 z-index: 0;
             }
             .hero-body {
-                background-image: url("images/fondo.png");
-                background-size: cover;
-                background-repeat: no-repeat;
+                position: relative;
+                overflow: hidden;
             }
             .jungla-hero .hero-body > .container {
                 position: relative; /* To ensure content is above the ::before pseudo-element */
@@ -647,6 +649,7 @@
                 .main-hero-image img {
                     max-width: 90%;
                 }
+                /* Eliminamos esta regla porque ahora usamos las clases de Bulma */
                 .columns.is-vcentered .column.is-half {
                     text-align: center; /* Center content on mobile */
                 }
